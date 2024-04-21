@@ -84,8 +84,8 @@ main{
 }
 
 main p{
-   
     text-indent: 25px;
+    line-height: 2em;
 }
 
 article > h1, h2{
@@ -114,7 +114,7 @@ footer{
     background-color: var(--cor05);
     color: rgba(255, 255, 255, 0.945);
     text-align: center;
-    padding: 0px;
+    padding: 5px;
 }
 
 /*Regras gerais */
@@ -126,10 +126,6 @@ a, strong{
 
 a:hover{
     text-decoration: underline;
-}
-
-p{
-    line-height: 2em;
 }
 
 /*classes*/
